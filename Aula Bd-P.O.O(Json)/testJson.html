@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>Teste Json</title>
+    </head>
+    
+    <body>
+
+    <script>
+        var frutas = `{
+            "fruta" : "banana",
+            "preço": 15.50,
+            "tipo":[
+                "prata",
+                "maça",
+                "nanica",
+                "da terra", "ouro"
+            ],
+            "origem":"Brasil",
+            "caractere": "\u3071"
+        }`
+        console.log(frutas);
+        console.log(JSON.parse(frutas));
+        console.log(JSON.parse(frutas).origem);
+        </script>
+    </body>
+</html>
+
+// procure o arquivo na pasta que salvou, abra no Chrome e clique F12 ou com o botao direito clique em inspecionar para entrar no console da pagina
